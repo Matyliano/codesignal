@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../awyss/appka.iml" filepath="$PROJECT_DIR$/../awyss/appka.iml" />
       <module fileurl="file://$PROJECT_DIR$/codesignal.iml" filepath="$PROJECT_DIR$/codesignal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../valuation-costs-of-metal-frames/valuation.iml" filepath="$PROJECT_DIR$/../valuation-costs-of-metal-frames/valuation.iml" />
     </modules>
   </component>
 </project>

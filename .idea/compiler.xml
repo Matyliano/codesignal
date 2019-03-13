@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="appka" />
         <module name="codesignal" />
+        <module name="valuation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="appka" target="1.8" />
       <module name="codesignal" target="1.8" />
+      <module name="valuation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

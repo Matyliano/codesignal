@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="valuation:war">
+    <output-path>$PROJECT_DIR$/../valuation-costs-of-metal-frames/target</output-path>
+    <root id="archive" name="valuation-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="valuation:war exploded" />
+    </root>
+  </artifact>
+</component>
