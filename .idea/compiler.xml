@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codesignal" />
+        <module name="Spartez" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="appka" target="1.8" />
       <module name="codesignal" target="1.8" />
+      <module name="Spartez" target="1.8" />
       <module name="valuation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
