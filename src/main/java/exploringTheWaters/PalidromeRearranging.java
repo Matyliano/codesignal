@@ -6,27 +6,19 @@ public class PalidromeRearranging {
     boolean palindromeRearranging(String inputString) {
 
 
-        String reverse = " ";
-        for(int i = inputString.length()-1; i >= 0; i--){
-
-            reverse = inputString.charAt(i) + " ";
+        // return inputString.equals(new StringBuilder(inputString).reverse().toString());
+        int[] charArray = new int[26];
+        int a = 0;
+        for (int i = 0; i < inputString.length(); i++) {
+            charArray[inputString.charAt(i) - 'a']++;
         }
-
-        char [] charArray = inputString.toCharArray();
-
-
-
-
-
-        if(inputString != reverse){
-            return  false;
+        for (int i : charArray) {
+            if (i % 2 == 1) {
+                a++;
+            }
         }
-        return true;
+            return inputString.length() % 2 == a;
 
     }
-
-
-
-
-
+    
 }
